@@ -1,7 +1,7 @@
 from machine import Pin #import pin leb
 import time #imports time
 
-led = Pin("LED", Pin.OUT) #set it as a output and setting the action pin to onbroad led
+led = Pin("LED", Pin.OUT) #creates a variable called led(set it as a output pin and setting the action pin to onbroad led)
 
 while True: 
     led.value(1)  #turn it on
