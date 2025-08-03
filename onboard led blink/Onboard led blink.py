@@ -1,5 +1,5 @@
-from machine import Pin
-import time
+from machine import Pin #import pin leb
+import time #imports time
 
 led = Pin("LED", Pin.OUT) #set it as a output and setting the action pin to onbroad led
 
