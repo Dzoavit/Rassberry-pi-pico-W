@@ -10,10 +10,10 @@ while True:
     time.sleep(1) #The timer after which the next line will execute
     ledg.value(0)  #turn it off
     
-    ledy.value(0.25)  #turn it on
-    time.sleep(1) #The timer after which the next line will execute
+    ledy.value(1)  #turn it on
+    time.sleep(0.25) #The timer after which the next line will execute
     ledy.value(0)  #turn it off
     
-    ledr.value(0.75)  #turn it on
-    time.sleep(1) #The timer after which the next line will execute
+    ledr.value(1)  #turn it on
+    time.sleep(0.75) #The timer after which the next line will execute
     ledr.value(0)  #turn it off
